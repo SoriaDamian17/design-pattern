@@ -12,7 +12,7 @@ Se refieren a como las clases y los objetos son organizados para conformar estru
 # Comportamiento
 Se centran en los algoritmos y en la asignación de responsabilidades entre los objetos.
 
-# Patrón Factory
+# Factory
 Factory Method permite la creación de objetos de un subtipo determinado a través de una clase Factory.
 
 El Factory encapsula la lógica de creacion de los objetos, de tal forma que el resultado esta encapsulado tras una interfaces común, desacoplando al cliente de la clase del objeto creado.

@@ -1,21 +1,22 @@
+let instance = null;
+
 class Singleton {
 
-    instance;
-
-    constructor() {
-        if (instance) {
-            return instance;
+    constructor(){
+        if (!instance){
+            instance = this;
         }
-    
-        this.instance = this;
+
+        return instance;
     }
 
-    static getInstance() {
-        if(!this.instance) {
-            this.instance = this.createInstance();
+	static getInstance() {
+        if (!instance){
+            instance = this;
         }
-        return this.instance;
-    }
+
+        return instance;
+	}
 }
 
 export default Singleton;

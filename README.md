@@ -22,6 +22,10 @@ El patrón Singleton garantiza que una clase tenga solo una instancia y proporci
 # Prototype
 El patrón de prototipo se refiere a crear un objeto duplicado mientras se tiene en cuenta el rendimiento. Este tipo de patrón de diseño está bajo un patrón de creación, ya que este patrón proporciona una de las mejores formas de crear un objeto.
 
+# Adapter
+Este es un patrón estructural donde la interfaz de una clase se traduce a otra. Este patrón permite que las clases trabajen juntas y que de otra manera no podrían hacerlo debido a interfaces incompatibles.
+
 # Fuentes
+https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15
 https://www.tutorialspoint.com/design_pattern/index.htm </br>
 https://sourcemaking.com
